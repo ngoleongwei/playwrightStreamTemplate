@@ -7,9 +7,10 @@ Install node from https://nodejs.org/en/download/
 Install Visual Studio code from https://code.visualstudio.com/
 
 ## To create a new project
+```bash
 mkdir playwrightPlayground
 
-Then innstall
+Then install 
 npm init playwright@latest
 
 npm install @cucumber/cucumber
