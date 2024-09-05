@@ -22,6 +22,10 @@ npm install @cucumber/cucumber
 npm install
 npm test
 
+https://github.com/cucumber/cucumber-js
+npx cucumber-js
+cucumber --tags @tagname
+npm test --tags @test
 ## Reporting
 Then open the cucumber-report.html for the test run above
 

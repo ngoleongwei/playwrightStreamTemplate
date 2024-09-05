@@ -1,0 +1,160 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "two;the-system-shall-allow-moe-to-specify-the-language-for-the-case",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The system shall allow MOE to specify the language for the case",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 503082199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a MEO login as \"meoa1\"",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\commonsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4456060799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "they click on Add Case button",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\commonsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23735700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "they click on Preferred Language dropdown",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\casecreationsteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 979399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "they should see a list of language",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\casecreationsteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1017057700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MED-106",
+            "line": 3
+          },
+          {
+            "name": "@Passed",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "two;the-system-shall-provide-a-selection-field-to-choose-the-conciliation-date-and-time",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "The system shall provide a selection field to choose the Conciliation Date and time",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 522208799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "a MEO login as \"meoa1\"",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\commonsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5863592398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "they click on Add Case button",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\commonsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27093699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "they shall see the Conciliation Date and time option field",
+            "match": {
+              "location": "file:\\C:\\Users\\lw\\repo\\playwrightStreamTemplate\\features\\step_definitions\\casecreationsteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3303499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MED-107",
+            "line": 10
+          },
+          {
+            "name": "@Passed",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "two",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "two",
+    "tags": [],
+    "uri": "features\\two.feature"
+  }
+]
